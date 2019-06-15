@@ -1,0 +1,59 @@
+body{
+    padding-top: 70px;
+}
+
+.jumbotron{
+    color: #2c3e50;
+    /* background-image: url("/images/medow.jpg");
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-position: bottom; */
+}
+
+.navbar-inverse{
+    background: #2c3e50;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+    color: white;
+}
+
+.navbar-inverse .navbar-brand{
+    color: white;
+}
+
+.image{
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+
+.image1{
+    background-image: url("/images/natureSkateboard.jpg");
+}
+.image2{
+    background-image: url("/images/Cola.jpg");
+}
+.image3{
+    background-image: url("/images/skyline.jpg");
+}
+.image4{
+    background-image: url("/images/fox.jpg");
+}
+.image5{
+    background-image: url("/images/positive.jpg");
+}
+.image6{
+    background-image: url("/images/work.jpg");
+}
+.image7{
+    background-image: url("/images/coffee.jpg");
+}
+.image8{
+    background-image: url("/images/mustang.jpg");
+}
+.image9{
+    background-image: url("/images/buddha.jpg");
+}

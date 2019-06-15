@@ -1,0 +1,28 @@
+html{
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar{
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar-brand{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    margin-left: 1.66%;
+    text-transform: uppercase;
+    border-bottom: solid 3px #ff000047;
+    border-radius: 5px;
+}
+
+#slash{
+    color: red;
+}
+
+img{
+    width: 30%;
+    float: left;
+    margin: 1.66%;
+    box-shadow: 10px 5px 5px rgb(105, 105, 105);
+    border-radius: 5%;
+}

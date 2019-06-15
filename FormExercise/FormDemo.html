@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Demo Exercise</title>
+</head>
+
+<body>
+
+    <h1>Register</h1>
+
+    <form action="" method="GET">
+        <div>
+            <label for="firstName">
+                First Name:
+                <input id="firstName" type="text" placeholder="John" name="firstName" required>
+            </label>
+
+            <label for="lastName">
+                Last Name:
+                <input id="lastName" type="text" placeholder="Smith" name="lastName">
+            </label>
+        </div>
+
+        <div>
+            <label for="maleChck">Male:</label>
+            <input id="maleChck" type="radio" name="genderChoice" value="male">
+            <label for="femaleChck">Female:</label>
+            <input id="femaleChck" type="radio" name="genderChoice" value="female">
+            <label for="otherChck">Other:</label>
+            <input id="otherChck" type="radio" name="genderChoice" value="other">
+        </div>
+
+        <div>
+            <label for="userEmail">Email:<input type="email" id="userEmail" placeholder="Your Email" required></label>
+            <label for="userPassword">Password:<input type="password" id="userPassword" pattern=".{5,10}" required title="5 to 10 Characters"></label>
+        </div>
+
+        <div>
+            <label for="userBirthday">
+                Birthday:
+                <select name="Day" id="userBirthDate">
+                    <option>Day</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                </select>
+                <select name="Month" id="userBirthMonth">
+                    <option>Month</option>
+                    <option>Jan</option>
+                    <option>Feb</option>
+                    <option>Mar</option>
+                    <option>Apr</option>
+                    <option>May</option>
+                    <option>Jun</option>
+                    <option>Jul</option>
+                    <option>Aug</option>
+                    <option>Sep</option>
+                    <option>Oct</option>
+                    <option>Nov</option>
+                    <option>Dec</option>
+                </select>
+                <select name="Year" id="userBirthYear">
+                    <option>Year</option>
+                    <option>1996</option>
+                    <option>1997</option>
+                    <option>1998</option>
+                    <option>1999</option>
+                    <option>2000</option>
+                </select>
+            </label>
+        </div>
+
+        <div>
+            <label for="tAndcChck">I agree to the terms and conditions:</label>
+            <input type="checkbox" id="tAndcChck" required>
+        </div>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>

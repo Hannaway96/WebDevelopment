@@ -1,0 +1,20 @@
+{
+  "name": "npmpractice",
+  "version": "1.0.0",
+  "description": "Practice using NPM as part of my Udemy course",
+  "main": "listProducts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Practice",
+    "npm",
+    "node",
+    "js"
+  ],
+  "author": "Jack Hannaway",
+  "license": "MIT",
+  "dependencies": {
+    "faker": "^4.1.0"
+  }
+}

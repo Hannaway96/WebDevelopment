@@ -1,0 +1,36 @@
+.main{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: solid 15px #bdc3c7;
+    border-radius: 15px;
+    font-family: source sans pro;
+    box-shadow: 10px 10px 5px #43434445;
+}
+
+h1{
+    font-family: source sans pro;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+    font-weight: 400;
+    margin: 5%;
+}
+
+hr{
+    width: 90%;
+    border: solid 2px #bdc3c7;
+    border-radius: 25%;
+    text-align: center;
+    color: #bdc3c798;
+}
+
+textarea{
+    border-radius: 5px;
+    margin:10px;
+}
+
+input{
+    border-radius: 5px;
+}

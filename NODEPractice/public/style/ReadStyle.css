@@ -1,0 +1,50 @@
+.main{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: solid 15px #bdc3c7;
+    border-radius: 15px;
+    font-family: source sans pro;
+    box-shadow: 10px 10px 5px #43434445;
+}
+
+.publishDate{
+    color: #3498db;
+    /* color: rgb(240, 62, 62); */
+    font-size:18px;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+}
+
+.postTitle{
+    font-size: 2.0em;
+    font-style: italic;
+    margin-top: -5px;
+    border-bottom: solid 2px #3498db25;
+    text-transform: capitalize;
+}
+
+.postAuthor{
+    font-size: 0.75em;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    margin-left: 5%;
+    margin-top: 20px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.postContent p:first-of-type{
+    border-left: solid 5px #bdc3c7;
+    /*border-left: solid 5px rgb(240, 62, 62);*/
+    padding-left: 5px;
+}
+
+hr{
+    width: 90%;
+    border: solid 2px #bdc3c7;
+    border-radius: 25%;
+    text-align: center;
+    color: #bdc3c798;
+}
